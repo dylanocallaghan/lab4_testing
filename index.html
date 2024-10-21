@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Data Fetch Lab</h1>
+    <button onclick="fetchDataSynchronous()">Fetch Data (Synchronous)</button>
+    <button onclick="fetchDataAsync()">Fetch Data (Async with Callbacks)</button>
+    <button onclick="fetchDataWithFetch()">Fetch Data (Fetch API)</button>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody id="dataTable">
+        </tbody>
+    </table>
+</body>
+</html>
